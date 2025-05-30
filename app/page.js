@@ -61,7 +61,7 @@ export default function Home() {
                          <div className='absolute inset-0 bg-team-rays'></div>
                     </div>
 
-                    <div className='relative z-10 pt-10'>
+                    <div className='relative z-10'>
                          <div className='text-center'>
                               <h2 className='text-[28px] md:text-[32px] lg:text-[40px] font-bold text-center bg-gradient-to-r from-[#00FF7B] to-[#00E0FF] text-transparent bg-clip-text'>THÀNH VIÊN CHỦ CHỐT</h2>
                               <div className='h-[2px] w-full max-w-[800px] mx-auto bg-gradient-to-r from-transparent via-[#00E0FF] to-transparent mt-3'></div>
@@ -80,7 +80,7 @@ export default function Home() {
                               <div className='flex flex-wrap justify-center gap-8 md:gap-6'>
                                    {/* Team Member 1 */}
                                    <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105'>
-                                        <div className='relative p-6 rounded-2xl border border-[#00E0FF]/50 bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
+                                        <div className='relative p-6 rounded-2xl border border-[#00E0FF] bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
                                              <div className='w-28 h-28 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.15)] to-[rgba(0,224,255,0.15)] border-2 border-[#00E0FF]/40 group-hover:border-[#00E0FF]/70 transition-all duration-300'>
                                                   <div className='w-full h-full bg-dark-light/80 flex items-center justify-center text-2xl font-bold text-[#00E0FF]/80'>
                                                        <Image
@@ -92,20 +92,28 @@ export default function Home() {
                                                        />
                                                   </div>
                                              </div>
-                                             <h3 className='text-lg font-bold text-center mb-2 group-hover:text-[#00E0FF] transition-colors duration-300'>Kiều Anh</h3>
-                                             <p className='text-[#00E0FF]/80 text-center text-sm'>Blockchain Developer</p>
+                                             <h3 className='text-lg font-bold text-center mb-2 text-[#017479] transition-colors duration-300'>Kiều Anh</h3>
+                                             <p className='text-[#00E0FF]/80 text-center text-sm text-[#017479]'>Blockchain Dev</p>
                                              <div className='h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-[#00FF7B]/50 to-[#00E0FF]/50 mt-4 transition-all duration-500 mx-auto'></div>
                                         </div>
                                    </div>
 
                                    {/* Team Member 2 */}
                                    <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105'>
-                                        <div className='relative p-6 rounded-2xl border border-[#00E0FF]/50 bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
+                                        <div className='relative p-6 rounded-2xl border border-[#00E0FF] bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
                                              <div className='w-28 h-28 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.15)] to-[rgba(0,224,255,0.15)] border-2 border-[#00E0FF]/40 group-hover:border-[#00E0FF]/70 transition-all duration-300'>
-                                                  <div className='w-full h-full bg-dark-light/80 flex items-center justify-center text-2xl font-bold text-[#00E0FF]/80'>NT</div>
+                                                  <div className='w-full h-full bg-dark-light/80 flex items-center justify-center text-2xl font-bold text-[#00E0FF]/80'>
+                                                       <Image
+                                                            src="/images/minhduy.jpg"
+                                                            alt="Chương Toàn"
+                                                            width={110}
+                                                            height={110}
+                                                            className="mt-[10px] rounded-full object-cover"
+                                                       />
+                                                  </div>
                                              </div>
-                                             <h3 className='text-lg font-bold text-center mb-2 group-hover:text-[#00E0FF] transition-colors duration-300'>Minh Duy</h3>
-                                             <p className='text-[#00E0FF]/80 text-center text-sm'>UI/UX Designer</p>
+                                             <h3 className='text-lg font-bold text-center text-[#017479] mb-2 transition-colors duration-300'>Minh Duy</h3>
+                                             <p className='text-center text-sm text-[#017479]'>UI/UX Designer</p>
                                              <div className='h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-[#00FF7B]/50 to-[#00E0FF]/50 mt-4 transition-all duration-500 mx-auto'></div>
                                         </div>
                                    </div>
@@ -113,27 +121,27 @@ export default function Home() {
                                    {/* Team Member 3 - Center (Featured) */}
                                    <div className='w-full md:w-[280px] z-10 group transition-all duration-500 hover:scale-105'>
                                         <div className='relative p-7 rounded-2xl border-2 border-[#00E0FF] bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_25px_rgba(0,224,255,0.5)] h-full'>
-                                             <div className='absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-[#00FF7B] to-[#00D768] text-black text-xs font-bold py-1.5 px-4 rounded-full shadow-lg'>Founder</div>
+                                             <div className='absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-[#00FF7B] to-[#00D768] text-black text-xs font-bold py-1.5 px-4 rounded-full shadow-lg'>Đội trưởng</div>
                                              <div className='w-36 h-36 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.3)] to-[rgba(0,224,255,0.3)] border-2 border-[#00E0FF] group-hover:shadow-[0_0_15px_rgba(0,224,255,0.5)] transition-all duration-300'>
                                                   <div className='w-full h-full bg-dark-light/70 flex items-center justify-center text-3xl font-bold text-[#00E0FF]'>
                                                        <Image
-                                                            src="/images/hinphat.png"
+                                                            src="/images/avt-phat.jpg"
                                                             alt="Hỉn Phát"
-                                                            width={150}
-                                                            height={150}
-                                                            className="mt-[85px] rounded-full"
+                                                            width={160}
+                                                            height={160}
+                                                            className="mt-10 rounded-full"
                                                        />
                                                   </div>
                                              </div>
-                                             <h3 className='text-xl font-bold text-center mb-2 group-hover:text-[#00E0FF] transition-colors duration-300'>Liu Hìn Phát</h3>
-                                             <p className='text-[#00E0FF] text-center'>Blockchain Architect</p>
+                                             <h3 className='text-xl font-bold text-center mb-2 text-[#017479] transition-colors duration-300'>Lìu Hìn Phát</h3>
+                                             <p className='text-[#00E0FF] text-center text-[#017479]'>Blockchain Architect</p>
                                              <div className='h-0.5 w-1/3 group-hover:w-full bg-gradient-to-r from-[#00FF7B] to-[#00E0FF] mt-4 transition-all duration-500 mx-auto'></div>
                                         </div>
                                    </div>
 
                                    {/* Team Member 4 */}
                                    <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105'>
-                                        <div className='relative p-6 rounded-2xl border border-[#00E0FF]/50 bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
+                                        <div className='relative p-6 rounded-2xl border border-[#00E0FF] bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
                                              <div className='w-28 h-28 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.15)] to-[rgba(0,224,255,0.15)] border-2 border-[#00E0FF]/40 group-hover:border-[#00E0FF]/70 transition-all duration-300'>
                                                   <div className='w-full h-full bg-dark-light/80 flex items-center justify-center text-2xl font-bold text-[#00E0FF]/80'>
                                                        <Image
@@ -141,43 +149,36 @@ export default function Home() {
                                                             alt="Chương Toàn"
                                                             width={110}
                                                             height={110}
-                                                            className="mt-[70px] rounded-full object-cover"
+                                                            className="mt-[60px] rounded-full"
                                                        />
                                                   </div>
                                              </div>
-                                             <h3 className='text-lg font-bold text-center mb-2 group-hover:text-[#00E0FF] transition-colors duration-300'>Hải Đăng</h3>
-                                             <p className='text-[#00E0FF]/80 text-center text-sm'>Smart Contract Dev</p>
+                                             <h3 className='text-lg font-bold text-center mb-2 text-[#017479] transition-colors duration-300'>Hải Đăng</h3>
+                                             <p className='text-[#00E0FF]/80 text-center text-sm text-[#017479]'>Smart Contract Dev</p>
                                              <div className='h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-[#00FF7B]/50 to-[#00E0FF]/50 mt-4 transition-all duration-500 mx-auto'></div>
                                         </div>
                                    </div>
 
                                    {/* Team Member 5 */}
                                    <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105'>
-                                        <div className='relative p-6 rounded-2xl border border-[#00E0FF]/50 bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
+                                        <div className='relative p-6 rounded-2xl border border-[#00E0FF] bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
                                              <div className='w-28 h-28 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.15)] to-[rgba(0,224,255,0.15)] border-2 border-[#00E0FF]/40 group-hover:border-[#00E0FF]/70 transition-all duration-300'>
                                                   <div className='w-full h-full bg-dark-light/80 flex items-center justify-center text-2xl font-bold text-[#00E0FF]/80'>
                                                        <Image
                                                             src="/images/chuongtoan.png"
                                                             alt="Chương Toàn"
-                                                            width={120}
-                                                            height={120}
-                                                            className="mt-9 rounded-full object-cover"
+                                                            width={110}
+                                                            height={110}
+                                                            className="mt-4 rounded-full object-cover"
                                                        />
                                                   </div>
                                              </div>
-                                             <h3 className='text-lg font-bold text-center mb-2 group-hover:text-[#00E0FF] transition-colors duration-300'>Chương Toàn</h3>
-                                             <p className='text-[#00E0FF]/80 text-center text-sm'>Backend Developer</p>
+                                             <h3 className='text-lg font-bold text-center mb-2 text-[#017479] transition-colors duration-300'>Chương Toàn</h3>
+                                             <p className='text-[#00E0FF]/80 text-center text-sm text-[#017479]'>Backend Dev</p>
                                              <div className='h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-[#00FF7B]/50 to-[#00E0FF]/50 mt-4 transition-all duration-500 mx-auto'></div>
                                         </div>
                                    </div>
                               </div>
-                         </div>
-
-                         {/* Pagination Dots */}
-                         <div className='flex justify-center mt-12 gap-3'>
-                              <div className='w-3 h-3 rounded-full bg-[#00E0FF] shadow-[0_0_5px_rgba(0,224,255,0.5)]'></div>
-                              <div className='w-3 h-3 rounded-full bg-white/20 hover:bg-[#00E0FF]/50 transition-colors duration-300 cursor-pointer'></div>
-                              <div className='w-3 h-3 rounded-full bg-white/20 hover:bg-[#00E0FF]/50 transition-colors duration-300 cursor-pointer'></div>
                          </div>
                     </div>
                </section>
@@ -191,22 +192,17 @@ export default function Home() {
                               <div className='h-[2px] w-full max-w-[800px] mx-auto bg-gradient-to-r from-transparent via-[#00E0FF] to-transparent mt-2'></div>
                          </div>
 
-                         <div className='max-w-4xl mx-auto relative'>
+                         <div className='max-w-[1285px] max-h-[567px] mx-auto relative'>
                               <div className='rounded-3xl border-2 border-[#00E0FF] overflow-hidden aspect-video relative group hover:shadow-[0_0_25px_rgba(0,224,255,0.4)] transition-all duration-500'>
                                    <div className='absolute inset-0 bg-gradient-to-b from-[rgba(0,255,123,0.1)] to-[rgba(0,224,255,0.1)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none'></div>
                                    <iframe src='https://www.youtube.com/embed/lgvDx7j0Sw4' title='EG TEAM Video' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen className='absolute inset-0 w-full h-full z-0'></iframe>
-                              </div>
-                              <div className='flex justify-center mt-6 gap-3'>
-                                   <div className='w-3 h-3 rounded-full bg-[#00E0FF] shadow-[0_0_5px_rgba(0,224,255,0.5)]'></div>
-                                   <div className='w-3 h-3 rounded-full bg-white/20'></div>
-                                   <div className='w-3 h-3 rounded-full bg-white/20'></div>
                               </div>
                          </div>
                     </div>
                </section>
 
                {/* Specialized Fields Section */}
-               <section className='relative w-full py-20 overflow-hidden'>
+               <section className='relative w-full lg:py-20 overflow-hidden'>
                     <div className='container mx-auto px-4'>
                          <div className='text-center mb-12'>
                               <h2 className='text-[28px] md:text-[32px] lg:text-[36px] font-bold text-center text-[#00D768]'>LĨNH VỰC CHUYÊN MÔN</h2>

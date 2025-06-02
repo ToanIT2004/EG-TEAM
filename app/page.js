@@ -264,7 +264,7 @@ export default function Home() {
                                              <Image src='/images/DeFin.png' alt='DePIN' width={48} height={48} className='text-[#00E0FF]' />
                                         </div>
                                         <p className='text-[#8198A4] pt-2 text-sm leading-[30px]'>
-                                             Hạ tầng DePIN: Xây Dựng Hệ Thống Hạ Tầng Mạng Phi Tập Trung Phục Vụ Cho Truyền Dữ Liệu, Định Vị Và Đo Lường Thông Minh.
+                                             Hạ tầng phi tập trung DePIN: Xây Dựng Hệ Thống Hạ Tầng Mạng Phi Tập Trung Phục Vụ Cho Truyền Dữ Liệu, Định Vị Và Đo Lường Thông Minh.
                                         </p>
                                    </div>
                               </div>

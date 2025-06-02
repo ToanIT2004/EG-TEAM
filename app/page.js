@@ -6,7 +6,7 @@ export default function Home() {
      return (
           <main className='overflow-x-hidden'>
                {/* Hero Section */}
-               <section className='relative w-full h-screen max-h-[848px]'>
+               <section id='#' className='relative w-full h-screen max-h-[848px]'>
                     <Image src='/images/header.png' alt='Header Image' fill priority className='object-cover brightness-[0.85]' />
 
                     <div className='absolute inset-0 w-full h-full bg-gradient-to-b from-black/40 to-transparent'>
@@ -79,7 +79,7 @@ export default function Home() {
                          <div className='relative px-10'>
                               <div className='flex flex-wrap justify-center gap-8 md:gap-6'>
                                    {/* Team Member 1 */}
-                                   <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105'>
+                                   <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105 cursor-pointer'>
                                         <div className='relative p-6 rounded-2xl border border-[#00E0FF] bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
                                              <div className='w-28 h-28 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.15)] to-[rgba(0,224,255,0.15)] border-2 border-[#00E0FF]/40 group-hover:border-[#00E0FF]/70 transition-all duration-300'>
                                                   <div className='w-full h-full bg-dark-light/80 flex items-center justify-center text-2xl font-bold text-[#00E0FF]/80'>
@@ -99,7 +99,7 @@ export default function Home() {
                                    </div>
 
                                    {/* Team Member 2 */}
-                                   <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105'>
+                                   <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105 cursor-pointer'>
                                         <div className='relative p-6 rounded-2xl border border-[#00E0FF] bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
                                              <div className='w-28 h-28 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.15)] to-[rgba(0,224,255,0.15)] border-2 border-[#00E0FF]/40 group-hover:border-[#00E0FF]/70 transition-all duration-300'>
                                                   <div className='w-full h-full bg-dark-light/80 flex items-center justify-center text-2xl font-bold text-[#00E0FF]/80'>
@@ -119,7 +119,7 @@ export default function Home() {
                                    </div>
 
                                    {/* Team Member 3 - Center (Featured) */}
-                                   <div className='w-full md:w-[280px] z-10 group transition-all duration-500 hover:scale-105'>
+                                   <div className='w-full md:w-[280px] z-10 group transition-all duration-500 hover:scale-105 cursor-pointer'>
                                         <div className='relative p-7 rounded-2xl border-2 border-[#00E0FF] bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_25px_rgba(0,224,255,0.5)] h-full'>
                                              <div className='absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-[#00FF7B] to-[#00D768] text-black text-xs font-bold py-1.5 px-4 rounded-full shadow-lg'>Đội trưởng</div>
                                              <div className='w-36 h-36 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.3)] to-[rgba(0,224,255,0.3)] border-2 border-[#00E0FF] group-hover:shadow-[0_0_15px_rgba(0,224,255,0.5)] transition-all duration-300'>
@@ -140,7 +140,7 @@ export default function Home() {
                                    </div>
 
                                    {/* Team Member 4 */}
-                                   <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105'>
+                                   <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105 cursor-pointer'>
                                         <div className='relative p-6 rounded-2xl border border-[#00E0FF] bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
                                              <div className='w-28 h-28 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.15)] to-[rgba(0,224,255,0.15)] border-2 border-[#00E0FF]/40 group-hover:border-[#00E0FF]/70 transition-all duration-300'>
                                                   <div className='w-full h-full bg-dark-light/80 flex items-center justify-center text-2xl font-bold text-[#00E0FF]/80'>
@@ -160,7 +160,7 @@ export default function Home() {
                                    </div>
 
                                    {/* Team Member 5 */}
-                                   <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105'>
+                                   <div className='w-full md:w-[220px] group transition-all duration-500 hover:scale-105 cursor-pointer'>
                                         <div className='relative p-6 rounded-2xl border border-[#00E0FF] bg-white/5 backdrop-blur-sm transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,224,255,0.4)] h-full'>
                                              <div className='w-28 h-28 mx-auto rounded-full overflow-hidden mb-6 bg-gradient-to-b from-[rgba(0,255,123,0.15)] to-[rgba(0,224,255,0.15)] border-2 border-[#00E0FF]/40 group-hover:border-[#00E0FF]/70 transition-all duration-300'>
                                                   <div className='w-full h-full bg-dark-light/80 flex items-center justify-center text-2xl font-bold text-[#00E0FF]/80'>
@@ -202,7 +202,7 @@ export default function Home() {
                </section>
 
                {/* Specialized Fields Section */}
-               <section className='relative w-full lg:py-20 overflow-hidden'>
+               <section id='services' className='relative w-full lg:py-20 overflow-hidden'>
                     <div className='container mx-auto px-4'>
                          <div className='text-center mb-12'>
                               <h2 className='text-[28px] md:text-[32px] lg:text-[36px] font-bold text-center text-[#00D768]'>LĨNH VỰC CHUYÊN MÔN</h2>
@@ -274,7 +274,7 @@ export default function Home() {
                </section>
 
                {/* Featured Projects Section */}
-               <section className='relative w-full py-20 overflow-hidden'>
+               <section id='#projects' className='relative w-full py-20 overflow-hidden'>
                     <div className='container mx-auto px-4'>
                          <div className='text-center mb-12'>
                               <h2 className='text-[28px] md:text-[32px] lg:text-[36px] font-bold text-center text-[#00D768]'>DỰ ÁN TIÊU BIỂU</h2>

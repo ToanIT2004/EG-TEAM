@@ -22,8 +22,8 @@ export default function Navbar() {
 
      const navLinks = [
           { name: 'Trang chủ', href: '/' },
-          { name: 'Chuyên môn', href: '#services' },
           { name: 'Đội ngũ', href: '#team' },
+          { name: 'Chuyên môn', href: '#services' },
           { name: 'Dự án', href: '#projects' },
      ];
 

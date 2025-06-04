@@ -14,6 +14,7 @@ export default function Home() {
                          <Navbar />
 
                          {/* Hero Content */}
+
                          <div className='mt-[150px] sm:mt-0 container mx-auto px-4 h-[calc(100%-60px)] flex items-center'>
                               <div className='flex flex-col lg:flex-row items-center justify-between gap-8 w-full'>
                                    <div className='lg:ml-[100px] text-white w-full lg:max-w-[600px]'>
@@ -25,9 +26,13 @@ export default function Home() {
                                         </div>
                                    </div>
 
-                                   <div className='w-full lg:mr-[100px] lg:w-[500px] lg:h-[500px] h-[300px] relative mt-8 lg:mt-0 animate-float'>
-                                        <Image src='/images/teamwork.png' alt='Minh họa' fill className='object-contain' />
+                                   <div data-aos="fade-down">
+                                        <div className='w-full lg:mr-[100px] lg:w-[500px] lg:h-[500px] h-[300px] relative mt-8 lg:mt-0 animate-float'>
+                                             <Image src='/images/teamwork.png' alt='Minh họa' fill className='object-contain' />
+                                        </div>
                                    </div>
+
+
                               </div>
                          </div>
                     </div>
@@ -36,7 +41,6 @@ export default function Home() {
                {/* About Section */}
                <section className='relative w-full py-20'>
                     <Image src='/images/Group.png' alt='Background Image' fill className='object-cover' />
-
                     <div className='container mx-auto relative z-10'>
                          <div className='flex flex-col lg:flex-row items-center justify-around gap-12'>
                               <div className='w-full h-[300px] lg:w-[623px] lg:h-[501px] relative lg:ml-[46px] animate-float'>
@@ -52,6 +56,7 @@ export default function Home() {
                               </div>
                          </div>
                     </div>
+
                </section>
 
                {/* Team Section */}

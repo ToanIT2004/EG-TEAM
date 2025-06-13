@@ -24,7 +24,7 @@ export default function Navbar() {
           { name: 'Đội ngũ', href: '#team' },
           { name: 'Giới thiệu', href: '#introduce' },
           { name: 'Chuyên môn', href: '#services' },
-          { name: 'Tài liệu', href: '/docs/about/welcome' }, // open in new tab
+          { name: 'Tài liệu', href: '/docs/about/welcome' },
      ];
 
      return (
@@ -81,16 +81,16 @@ export default function Navbar() {
                </div>
 
                {/* Mobile Menu */}
-               <div className={`md:hidden absolute w-full bg-dark/95 backdrop-blur-md transition-all duration-300 overflow-hidden ${mobileMenuOpen ? 'max-h-[300px] shadow-xl' : 'max-h-0'}`}>
+               <div className={`md:hidden absolute w-full bg-dark/95 backdrop-blur-md transition-all duration-300 overflow-hidden ${mobileMenuOpen ? 'max-h-screen overflow-y-auto shadow-xl' : 'max-h-0'}`}>
                     <div className='container mx-auto px-4 py-4'>
-                         <div className='flex flex-col space-y-4'>
+                         <div className='flex flex-col items-center space-y-4'>
                               {navLinks.map((link) => (
                                    <Link
                                         key={link.name}
                                         href={link.href}
-                                        target={link.href === '/about/welcome' ? '_blank' : undefined}
-                                        rel={link.href === '/about/welcome' ? 'noopener noreferrer' : undefined}
-                                        className='text-white hover:text-secondary-light py-2 border-b border-white/10 font-medium transition-colors'
+                                        target={link.href === '/docs/about/welcome' ? '_blank' : undefined}
+                                        rel={link.href === '/docs/about/welcome' ? 'noopener noreferrer' : undefined}
+                                        className='text-white hover:text-secondary-light py-2 border-b border-white/10 font-medium transition-colors w-full'
                                         onClick={() => setMobileMenuOpen(false)}
                                    >
                                         {link.name}
@@ -98,7 +98,7 @@ export default function Navbar() {
                               ))}
                               <Link
                                    href='#contact'
-                                   className='px-5 py-2 bg-gradient-to-r from-primary-light to-secondary-light text-black font-medium rounded-full hover:shadow-glow transition-all duration-300 text-center mt-2'
+                                   className='w-full text-center px-5 py-2 bg-gradient-to-r from-primary-light to-secondary-light text-black font-medium rounded-full hover:shadow-glow transition-all duration-300 mt-2'
                                    onClick={() => setMobileMenuOpen(false)}
                               >
                                    Liên hệ ngay

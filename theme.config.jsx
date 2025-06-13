@@ -51,13 +51,8 @@ const config = {
         },
         {
           rel: "icon",
-          href: `/logoSmall.svg`,
-          type: "image/svg",
-        },
-        {
-          rel: "icon",
-          href: `/logoSmall.svg`,
-          type: "image/svg",
+          href: `/favicon.ico`,
+          type: "image/svg+xml",
         },
       ],
       gitTimestamp({ timestamp }) {

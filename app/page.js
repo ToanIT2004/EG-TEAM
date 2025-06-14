@@ -422,7 +422,7 @@ export default function Home() {
                                                                            Chuyên môn: Cyber Security, Blockchain.
                                                                       </p>
                                                                       <p className="text-gray-700 text-sm leading-relaxed text-justify font-medium mb-3">
-                                                                           Kinh nghiệm: Đã tham gia nhiều cuộc thi Hackathon, có kinh nghiệm xây dựng và triển khai một số ứng dụng phi tập trung (dApp) trên các hệ sinh thái blockchain khác nhau.
+                                                                           Kinh nghiệm: Đã tham gia nhiều cuộc thi Hackathon, có kinh nghiệm xây dựng và triển khai một số ứng dụng phi tập trung (dApp) trên các hệ sinh thái Blockchain khác nhau.
                                                                       </p>
                                                                       <h2 className="text-base font-semibold text-gray-900 mb-1">Giới thiệu:</h2>
                                                                       <p className="text-gray-700 text-sm leading-relaxed text-justify font-medium mb-3">
@@ -435,9 +435,9 @@ export default function Home() {
 
                                                                       <h2 className="text-base font-semibold text-gray-900 mb-1">Vai trò trong EG Team:</h2>
                                                                       <p className="text-gray-700 text-sm leading-relaxed text-justify font-medium mb-3">
-                                                                           - Thiết kế và phát triển các ứng dụng phi tập trung (dApp) dựa trên nền tảng blockchain.<br></br>
+                                                                           - Thiết kế và phát triển các ứng dụng phi tập trung (dApp) dựa trên nền tảng Blockchain.<br></br>
                                                                            - Tích hợp các giao thức bảo mật trong kiến trúc hệ thống. <br></br>
-                                                                           - Tham gia nghiên cứu và triển khai các mô hình ứng dụng mới kết hợp giữa blockchain, AI và IoT. <br></br>
+                                                                           - Tham gia nghiên cứu và triển khai các mô hình ứng dụng mới kết hợp giữa Blockchain, AI và IoT. <br></br>
                                                                            - Hỗ trợ team trong các cuộc thi công nghệ và các dự án thử nghiệm thực tế. <br></br>
                                                                       </p>
                                                                  </div>
@@ -522,7 +522,7 @@ export default function Home() {
                                                                            - Thiết kế và phát triển các API backend sử dụng Node.js và Express. <br></br>
                                                                            - Tối ưu cơ sở dữ liệu MySQL và MongoDB cho hiệu năng và tính toàn vẹn dữ liệu. <br></br>
                                                                            - Xây dựng hệ thống xác thực/ủy quyền bằng JWT, OAuth2. <br></br>
-                                                                           - Quản lý cấu trúc dự án, kiểm duyệt mã nguồn và hỗ trợ triển khai hệ thống trên môi trường staging/production. <br></br>
+                                                                           - Quản lý cấu trúc dự án, kiểm duyệt mã nguồn và hỗ trợ triển khai hệ thống trên môi trường Staging/Production. <br></br>
                                                                            - Tham gia pitching, trình bày giải pháp backend tại các buổi demo nội bộ và hội thảo công nghệ. <br></br>
 
                                                                       </p>
@@ -691,14 +691,14 @@ export default function Home() {
                                              <div className="flex items-center">
                                                   <Phone className="w-4 h-4" />
                                              </div>
-                                             <span className="text-sm">+84 000 000 000</span>
+                                             <span className="text-sm">+84 523 359 915</span>
                                         </div>
 
                                         <div className="flex items-center gap-2">
                                              <div className="flex items-center">
                                                   <Mail className="w-4 h-4" />
                                              </div>
-                                             <span className="text-sm">contact@egteam.com</span>
+                                             <span className="text-sm">phat@pionelab.com</span>
                                         </div>
 
                                         <div className="flex items-center gap-2">
